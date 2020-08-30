@@ -4,7 +4,7 @@ import cbapi
 
 def test_cbapi():
 
-    cbapi.set_key(<YOUR_RAPIDAPI_KEY>)  # hide it later
+    cbapi.set_key(<YOUR_RAPIDAPI_KEY>)
 
     print(">>", "MadlyRad Labs, Inc.", end=' ... \n')
     org = cbapi.get_org(name="MadlyRad Labs, Inc.")
