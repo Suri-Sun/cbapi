@@ -10,7 +10,7 @@ def test_cbapi():
     org = cbapi.get_org(name="MadlyRad Labs, Inc.")
 
     print(">>", "Ritwik Bhattacharya", end=' ... \n')
-    ppl = cbapi.get_org(name="MadlyRad Labs, Inc.")
+    ppl = cbapi.get_ppl(name="MadlyRad Labs, Inc.")
 
     # always should have info for valid symbols
     assert(org.shape[0] > 0)
