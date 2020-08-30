@@ -31,7 +31,7 @@ def get_key():
     if RAPIDAPI_KEY:
         return RAPIDAPI_KEY
     else:
-        print("Please set the RAPIDAPI key first! Call set_KEY(<YOUR_RAPIDAPI_KEY>)")
+        print("Please set the RAPIDAPI key first! Call set_key(<YOUR_RAPIDAPI_KEY>)")
 
 
 def default_timestamp():
